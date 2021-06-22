@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/12cc97390a.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<!-- favicon -->
+<link rel="shortcut icon" href="favicon.png.png" type="image/x-icon">
+    <title>Stone paper scissor</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Stone Paper Scissors</h1>
+            <button id="restart" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+                <p>Computer: 0</p>
+                <p>Player: 0</p>
+            </div>
+        </header>
+        <div class="choices">
+            <i id="scissors"class=" choice fas fa-hand-scissors fa-8x"></i>
+            <i id="rock"class=" choice fas fa-hand-rock fa-8x"></i>
+            <i id="paper"class=" choice fas fa-hand-paper fa-8x"></i>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal">
+        <div id="result" class="modal-content">
+           
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
